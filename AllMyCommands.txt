@@ -3,7 +3,11 @@ git rm 'Git Pro 3.1 Git Branching - Branches in a Nutshell'
 git HEAD 'Git Pro 3.1 Git Branching -  in a Nutshell'
 git status
 git checkout -- 'Git Pro 3.1 Git Branching - Branches in a Nutshell'
-git 
 git commit -m 'Sprint 0 step1 changes'
-
+git push
+git branch ReadMe
+git checkout ReadMe
+git add README.md
+git merge master
+git commit -m "final changes"
 
